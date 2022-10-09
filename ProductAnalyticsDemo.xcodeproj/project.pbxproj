@@ -14,7 +14,7 @@
 		67A4A28E28F2E0A0001C1878 /* ProductAnalyticsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A4A28D28F2E0A0001C1878 /* ProductAnalyticsDemoTests.swift */; };
 		67A4A29828F2E0A0001C1878 /* ProductAnalyticsDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A4A29728F2E0A0001C1878 /* ProductAnalyticsDemoUITests.swift */; };
 		67A4A29A28F2E0A0001C1878 /* ProductAnalyticsDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A4A29928F2E0A0001C1878 /* ProductAnalyticsDemoUITestsLaunchTests.swift */; };
-		67A4A2E328F308F0001C1878 /* ProductAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 67A4A2E228F308F0001C1878 /* ProductAnalyticsCore */; };
+		67A4A2E628F30DFA001C1878 /* ProductAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 67A4A2E528F30DFA001C1878 /* ProductAnalyticsCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67A4A2E328F308F0001C1878 /* ProductAnalyticsCore in Frameworks */,
+				67A4A2E628F30DFA001C1878 /* ProductAnalyticsCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +159,7 @@
 			);
 			name = ProductAnalyticsDemo;
 			packageProductDependencies = (
-				67A4A2E228F308F0001C1878 /* ProductAnalyticsCore */,
+				67A4A2E528F30DFA001C1878 /* ProductAnalyticsCore */,
 			);
 			productName = ProductAnalyticsDemo;
 			productReference = 67A4A27828F2E09C001C1878 /* ProductAnalyticsDemo.app */;
@@ -234,7 +234,7 @@
 			);
 			mainGroup = 67A4A26F28F2E09C001C1878;
 			packageReferences = (
-				67A4A2A828F2E5DD001C1878 /* XCRemoteSwiftPackageReference "ProductAnalytics" */,
+				67A4A2E428F30DFA001C1878 /* XCRemoteSwiftPackageReference "ProductAnalytics" */,
 			);
 			productRefGroup = 67A4A27928F2E09C001C1878 /* Products */;
 			projectDirPath = "";
@@ -658,7 +658,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		67A4A2A828F2E5DD001C1878 /* XCRemoteSwiftPackageReference "ProductAnalytics" */ = {
+		67A4A2E428F30DFA001C1878 /* XCRemoteSwiftPackageReference "ProductAnalytics" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/nthState/ProductAnalytics";
 			requirement = {
@@ -669,9 +669,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		67A4A2E228F308F0001C1878 /* ProductAnalyticsCore */ = {
+		67A4A2E528F30DFA001C1878 /* ProductAnalyticsCore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 67A4A2A828F2E5DD001C1878 /* XCRemoteSwiftPackageReference "ProductAnalytics" */;
+			package = 67A4A2E428F30DFA001C1878 /* XCRemoteSwiftPackageReference "ProductAnalytics" */;
 			productName = ProductAnalyticsCore;
 		};
 /* End XCSwiftPackageProductDependency section */
