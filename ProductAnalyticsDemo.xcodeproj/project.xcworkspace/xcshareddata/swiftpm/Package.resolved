@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "productanalytics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nthState/ProductAnalytics",
+      "state" : {
+        "branch" : "main",
+        "revision" : "67e2098cf26da32c2f582cb8071b56c2677ca5ec"
+      }
+    }
+  ],
+  "version" : 2
+}
