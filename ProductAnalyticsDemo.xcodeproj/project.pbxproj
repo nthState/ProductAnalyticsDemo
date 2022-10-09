@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6745BF1428F3144B00D3FD21 /* ProductAnalytics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6745BF1328F3144B00D3FD21 /* ProductAnalytics.plist */; };
 		67A4A27C28F2E09C001C1878 /* ProductAnalyticsDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A4A27B28F2E09C001C1878 /* ProductAnalyticsDemoApp.swift */; };
 		67A4A27E28F2E09C001C1878 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A4A27D28F2E09C001C1878 /* ContentView.swift */; };
 		67A4A28028F2E0A0001C1878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A4A27F28F2E0A0001C1878 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6745BF1328F3144B00D3FD21 /* ProductAnalytics.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ProductAnalytics.plist; sourceTree = "<group>"; };
 		67A4A27828F2E09C001C1878 /* ProductAnalyticsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductAnalyticsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A4A27B28F2E09C001C1878 /* ProductAnalyticsDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAnalyticsDemoApp.swift; sourceTree = "<group>"; };
 		67A4A27D28F2E09C001C1878 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		67A4A26F28F2E09C001C1878 = {
 			isa = PBXGroup;
 			children = (
+				6745BF1328F3144B00D3FD21 /* ProductAnalytics.plist */,
 				67A4A27A28F2E09C001C1878 /* ProductAnalyticsDemo */,
 				67A4A28C28F2E0A0001C1878 /* ProductAnalyticsDemoTests */,
 				67A4A29628F2E0A0001C1878 /* ProductAnalyticsDemoUITests */,
@@ -252,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6745BF1428F3144B00D3FD21 /* ProductAnalytics.plist in Resources */,
 				67A4A28428F2E0A0001C1878 /* Preview Assets.xcassets in Resources */,
 				67A4A28028F2E0A0001C1878 /* Assets.xcassets in Resources */,
 			);
@@ -290,7 +294,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${BUILD_DIR%Build/*}SourcePackages/checkouts/ProductAnalytics/run\n";
+			shellScript = "DIR=$( cd \"$( dirname \"${BASH_SOURCE[0]}\" )\" && pwd )\necho \"dir: $DIR\"\n${BUILD_DIR%Build/*}SourcePackages/checkouts/ProductAnalytics/run\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
