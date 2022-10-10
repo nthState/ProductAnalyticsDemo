@@ -294,7 +294,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "DIR=$( cd \"$( dirname \"${BASH_SOURCE[0]}\" )\" && pwd )\necho \"dir: $DIR\"\n${BUILD_DIR%Build/*}SourcePackages/checkouts/ProductAnalytics/run\n";
+			shellScript = "${BUILD_DIR%Build/*}SourcePackages/checkouts/ProductAnalytics/run\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

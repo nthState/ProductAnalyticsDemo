@@ -3,6 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>warningsAsErrors</key>
+	<false/>
+	<key>enableAnalysis</key>
+	<true/>
+	<key>accessToken</key>
+	<string>my_token</string>
+	<key>reportAnalysisResults</key>
+	<true/>
+	<key>generateSourceCode</key>
 	<true/>
 </dict>
 </plist>
