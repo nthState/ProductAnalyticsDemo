@@ -13,6 +13,9 @@ struct ProductAnalyticsDemoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            .onAppear() {
+              let x = AnalyticKeys.General.Launch.launchName()
+            }
         }
     }
 }
